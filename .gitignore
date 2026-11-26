@@ -1,0 +1,20 @@
+.next
+node_modules
+.env
+.env.development
+.env.local
+.env.production
+.env.production-current
+.env.uat-checkout
+.DS_Store
+coverage
+dist
+*.log
+.vercel
+
+# Handover exclusions
+.env.*
+!.env.example
+.next-build-backup-*/
+.next.corrupt.*/
+*.tsbuildinfo
